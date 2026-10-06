@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    @import url('./styles/colors.css');
+}
+
+.header{
+    background-color: var(--secondary-color);
+    position: fixed;
+    width: 100%;
+}
+
+.logo-header{
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    object-fit: cover;
+}
